@@ -1,0 +1,17 @@
+[package]
+name = "render-encoder"
+version = "0.1.0"
+authors = ["evopen <520dhh@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.14"
+rav1e = { git = "https://github.com/xiph/rav1e" }
+ivf = { git = "https://github.com/xiph/rav1e" }
+dcv-color-primitives = "0.2.0"
+rayon = "1.5.0"
+num-traits = "0.2.14"
+# av-ivf = "0.2.1"
+# av-format = "0.3.1"
